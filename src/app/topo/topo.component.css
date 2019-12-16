@@ -1,0 +1,24 @@
+.backgroundColor {
+  background: rgb(6, 144, 168);
+}
+
+.active {
+  font-weight: bold;
+  background: rgb(6, 112, 131);
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.profile-icon {
+  width: 30px;
+  height: 30px;
+}
+
+.bell-icon {
+  width: 30px;
+  height: 20px;
+  margin-right: 60px;
+}

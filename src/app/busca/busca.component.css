@@ -1,0 +1,21 @@
+.input-group {
+    margin-top: 70px;
+}
+
+.jumbotron {
+    background: transparent;
+}
+
+.cards {
+    margin-top: 70px;
+}
+
+.card-body {
+    padding: 80px 100px;
+}
+
+.container {
+    padding-bottom: 100px;
+    padding-left: 80px;
+    padding-right: 70px;
+}
