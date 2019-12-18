@@ -25,11 +25,15 @@ h5 {
   margin-left: 30px;
 }
 
+.msg-welcome {
+    margin-top: 40px;
+}
+
 .email {
   margin-top: 50px;
   margin-left: 20px;
   margin-bottom: 0px;
-  font-size: 15px;
+  font-size: 13px;
   color: #9aae04;
 }
 
@@ -46,6 +50,7 @@ h5 {
   padding-left: 10px;
   background: transparent;
   margin-left: 20px;
+  width: 90%;
 }
 
 .form-control::placeholder {
@@ -53,7 +58,7 @@ h5 {
     color: #31353b;
 }
 
-.teste {
+.img-avancar {
     width: 80%;
     margin-top: 40px;
 }
