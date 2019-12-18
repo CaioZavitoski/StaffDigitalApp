@@ -1,10 +1,11 @@
 .backgroundColor {
-  background: rgb(6, 144, 168);
+  background: #0095a6;
 }
 
 .active {
   font-weight: bold;
-  background: rgb(6, 112, 131);
+  letter-spacing: 0.77px;
+  background: #008a9c;
 }
 
 a {

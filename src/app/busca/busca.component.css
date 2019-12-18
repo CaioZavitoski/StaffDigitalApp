@@ -1,21 +1,65 @@
 .input-group {
-    margin-top: 70px;
+  margin-top: 55px;
 }
 
-.jumbotron {
-    background: transparent;
-}
-
-.cards {
-    margin-top: 70px;
-}
-
-.card-body {
-    padding: 80px 100px;
+.form-control {
+  width: 1220px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
 }
 
 .container {
-    padding-bottom: 100px;
-    padding-left: 80px;
-    padding-right: 70px;
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 70px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.BUSCAR-PROFISSIONAIS {
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  color: #31353b;
+  letter-spacing: 0.32px;
+}
+
+.card {
+  margin-top: 70px;
+  border-top: transparent;
+}
+
+.card-body {
+  padding: 45px 70px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-radius: 10px;
+  background-color: #ffffff;
+}
+
+.img-categoria {
+    width: 80%;
+}
+.img-categoria-ux {
+    width: 75%;
+}
+
+.img-categoria-meio {
+    width: 80%;
+    padding-bottom: 10px;
+}
+
+.img-categoria-final {
+    width: 80%;
+    padding-bottom: 25px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img-pessoas {
+    width: 70%;
 }
