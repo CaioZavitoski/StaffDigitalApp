@@ -42,12 +42,13 @@ h5 {
   border-top: transparent;
   border-left: transparent;
   border-right: transparent;
-  border-bottom: 1.5px solid black;
+  border-bottom: 1px solid black;
   border-radius: 0px;
   outline: 0px !important;
   -webkit-appearance: none;
   box-shadow: none !important;
-  padding-left: 10px;
+  padding-left: 20px;
+  padding-bottom: 0px;
   background: transparent;
   margin-left: 20px;
   width: 90%;
