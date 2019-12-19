@@ -5,9 +5,10 @@
 }
 
 .jumbotron {
-    padding-bottom: 300px;
+    padding-bottom: 210px;
     background: url(../../../assets/fundo-email.png);
-    background-size: 70%;
+    background-size: 90%;
+    background-repeat: no-repeat;
 }
 
 .main-text {

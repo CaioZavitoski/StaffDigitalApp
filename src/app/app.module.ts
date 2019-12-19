@@ -7,14 +7,14 @@ import { BrowserModule } from "@angular/platform-browser";
 import { NgModule } from "@angular/core";
 
 import { AppComponent } from "./app.component";
-import { TopoComponent } from "./components/topo/topo.component";
 import { BuscaComponent } from "./components/busca/busca.component";
 import { EmailConfirmComponent } from './components/email-confirm/email-confirm.component';
 import { LoginComponent } from './components/login/login.component';
 import { DefaultHttpService } from './services/default-http.service';
+import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
 
 @NgModule({
-  declarations: [AppComponent, TopoComponent, BuscaComponent, EmailConfirmComponent, LoginComponent],
+  declarations: [AppComponent, BuscaComponent, EmailConfirmComponent, LoginComponent, EditProfileComponent],
   imports: [BrowserModule, RouterModule.forRoot(routes), HttpClientModule, ReactiveFormsModule, FormsModule],
   providers: [HttpClient, FormBuilder, LoginService, DefaultHttpService],
   bootstrap: [AppComponent]

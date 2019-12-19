@@ -1,0 +1,90 @@
+.logo {
+  width: 20%;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.editar-perfil {
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  color: #31353b;
+  letter-spacing: 0.32px;
+}
+
+.email {
+  margin-top: 50px;
+  margin-bottom: 0px;
+  font-size: 13px;
+  color: #9aae04;
+}
+
+.email-disabled {
+  margin-top: 50px;
+  margin-bottom: 12px;
+  font-size: 13px;
+  color: grey;
+}
+
+.form-control,
+.form-control:focus {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  padding-left: 20px;
+  background: transparent;
+
+  width: 90%;
+}
+
+.form-control::placeholder {
+  font-weight: bold;
+  color: #31353b;
+}
+
+.form-control-disabled,
+.form-control-disabled:focus {
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  border-bottom: 1px solid black;
+  border-radius: 0px;
+  outline: 0px !important;
+  -webkit-appearance: none;
+  box-shadow: none !important;
+  padding-left: 20px;
+  padding-bottom: 0px;
+  background: transparent;
+  width: 90%;
+}
+
+.form-control-disabled::placeholder {
+  font-weight: bold;
+  color: grey;
+}
+
+.Retngulo-3433 {
+  margin-top: 10px;
+  width: 23px;
+  height: 23px;
+  opacity: 0.19;
+  border-radius: 12px;
+  background-color: #525252;
+}
+
+.senha {
+    margin-top: 11px;
+    margin-left: 10px;
+}   
+
+.btn {
+    margin-right: 50px;
+    padding: 8px 30px;
+
+}
