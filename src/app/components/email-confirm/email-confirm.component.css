@@ -6,7 +6,8 @@
 
 .jumbotron {
     padding-bottom: 300px;
-    background: transparent;
+    background: url(../../../assets/fundo-email.png);
+    background-size: 70%;
 }
 
 .main-text {

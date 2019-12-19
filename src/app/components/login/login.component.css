@@ -4,6 +4,7 @@
 
 .logo {
   width: 60%;
+  height: auto;
   margin-top: 30px;
 }
 
@@ -26,7 +27,7 @@ h5 {
 }
 
 .msg-welcome {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .email {
@@ -55,11 +56,17 @@ h5 {
 }
 
 .form-control::placeholder {
-    font-weight: bold;
-    color: #31353b;
+  font-weight: bold;
+  color: #31353b;
 }
 
 .img-avancar {
-    width: 80%;
-    margin-top: 40px;
+  width: 80%;
+  margin-top: 40px;
+}
+
+.img-avancar:focus,
+.btn:active {
+  outline: none !important;
+  box-shadow: none;
 }

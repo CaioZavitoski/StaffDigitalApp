@@ -1,12 +1,11 @@
-import { LoginComponent } from './login/login.component';
-import { EmailConfirmComponent } from './email-confirm/email-confirm.component';
-import { BuscaComponent } from './busca/busca.component';
-import { Routes } from '@angular/router'
+import { BuscaComponent } from './components/busca/busca.component';
+import { LoginComponent } from "./components/login/login.component";
+import { EmailConfirmComponent } from "./components/email-confirm/email-confirm.component";
+import { Routes } from "@angular/router";
 
 export const routes: Routes = [
-    {path: '', component: LoginComponent},
-    {path: 'email-confirm', component: EmailConfirmComponent},
-    {path: 'login', component: EmailConfirmComponent},
-
-]
-
+  { path: "", component: LoginComponent },
+  { path: "email-confirm", component: EmailConfirmComponent },
+  { path: "login", component: EmailConfirmComponent },
+  { path: "busca", component: BuscaComponent }
+];

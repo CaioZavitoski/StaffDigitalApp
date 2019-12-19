@@ -1,0 +1,27 @@
+<img src="../../assets/fundo.png" class="fundo float-left" />
+<form [formGroup]="formModel" (ngSubmit)="onSubmit(formModel.value)">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <img src="../../assets/everislogo.png" class="logo float-right" />
+      </div>
+      <div class="col-sm-12 msg-welcome">
+        <h2 class="bemvindo"><b>Bem vindo ao Staff Digital</b></h2>
+        <h5>Entre com seu email empresarial:</h5>
+      </div>
+      <div class="col-sm-12">
+        <p class="email">Email:</p>
+
+        <input type="email" class="form-control" placeholder="chenriqz@" />
+      </div>
+
+      <div class="col-sm-12">
+        <input
+          type="image"
+          src="../../assets/Avancar.PNG"
+          class="img-avancar float-right pt-4"
+        />
+      </div>
+    </div>
+  </div>
+</form>
