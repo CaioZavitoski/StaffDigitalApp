@@ -12,9 +12,11 @@ import { EmailConfirmComponent } from './components/email-confirm/email-confirm.
 import { LoginComponent } from './components/login/login.component';
 import { DefaultHttpService } from './services/default-http.service';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
+import { SignupComponent } from './components/signup/signup.component';
+import { SignupCompleteComponent } from './components/signup/signup-complete/signup-complete.component';
 
 @NgModule({
-  declarations: [AppComponent, BuscaComponent, EmailConfirmComponent, LoginComponent, EditProfileComponent],
+  declarations: [AppComponent, BuscaComponent, EmailConfirmComponent, LoginComponent, EditProfileComponent, SignupComponent, SignupCompleteComponent],
   imports: [BrowserModule, RouterModule.forRoot(routes), HttpClientModule, ReactiveFormsModule, FormsModule],
   providers: [HttpClient, FormBuilder, LoginService, DefaultHttpService],
   bootstrap: [AppComponent]

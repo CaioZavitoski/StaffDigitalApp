@@ -1,0 +1,26 @@
+.logo {
+    width: 18%;
+    margin-bottom: 60px;
+    margin-right: 220px;
+}
+
+.jumbotron {
+    padding-bottom: 230px;
+    background: url(../../../../assets/fundo-email.png);
+    background-size: 90%;
+    background-repeat: no-repeat;
+}
+
+.main-text {
+    margin-top: 90px;
+    margin-right: 250px;
+}
+
+.btn {
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.sucesso {
+    width: 10%;
+}

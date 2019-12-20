@@ -1,0 +1,43 @@
+<img src="../../assets/fundo.png" class="fundo float-left" />
+<form [formGroup]="formModel" (ngSubmit)="onSubmit(formModel.value)">
+  <div class="container">
+    <div class="row ">
+      <div class="col-sm-12">
+        <img src="../../assets/everislogo.png" class="logo float-right" />
+      </div>
+      <div class="col-sm-12 msg-welcome">
+        <h2 class="bemvindo"><b>É um prazer lhe receber</b></h2>
+        <h5>Crie aqui seu acesso ao Staff Digital</h5>
+      </div>
+      <div class="col-sm-12">
+        <p class="email">Nome Completo</p>
+        <input type="text" class="form-control" placeholder="Caio Henrique Zavitoski" />
+      </div>
+
+      <div class="col-sm-6">
+        <p class="email">Crie sua senha:</p>
+        <input type="password" class="form-control" placeholder="********" />
+      </div>
+
+      <div class="col-sm-6">
+        <p class="email">Confirme sua senha:</p>
+        <input type="password" class="form-control" placeholder="********" />
+      </div>
+
+      <div class="col-sm-12 d-flex flex-row mt-4">
+        <div class="Retngulo-3433"></div>
+        <div class="senha">
+          <span>Sua senha deve ter letras, números e mais de 6 caracteres</span>
+        </div>
+      </div>
+
+      <div class="col-sm-12">
+        <input
+          type="image"
+          src="../../../assets/Criar.png"
+          class="img-avancar float-right mt-5"
+        />
+      </div>
+    </div>
+  </div>
+</form>
