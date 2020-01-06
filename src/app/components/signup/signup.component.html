@@ -1,5 +1,5 @@
 <img src="../../assets/fundo.png" class="fundo float-left" />
-<form [formGroup]="formModel" (ngSubmit)="onSubmit(formModel.value)">
+<form>
   <div class="container">
     <div class="row ">
       <div class="col-sm-12">
@@ -31,11 +31,12 @@
         </div>
       </div>
 
-      <div class="col-sm-12">
+      <div class="col-sm-12" >
         <input
           type="image"
           src="../../../assets/Criar.png"
           class="img-avancar float-right mt-5"
+          [routerLink]="['/signup-complete']"
         />
       </div>
     </div>

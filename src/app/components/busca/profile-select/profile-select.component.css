@@ -1,0 +1,136 @@
+.voltar {
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a3b1c5;
+}
+
+.skill {
+  width: 80%;
+}
+
+.esquerda {
+  margin-left: 15px;
+}
+
+.retangulo-maior {
+  width: 155px;
+  height: 28px;
+  border-radius: 4px;
+  background-color: #f9fafc;
+}
+
+.retangulo-menor {
+  width: 45px;
+  height: 28px;
+  border-radius: 4px;
+  background-color: #dce3ed;
+}
+
+.inner-text {
+  font-size: 14px;
+  font-weight: 900;
+  line-height: 2;
+  color: #a3b1c5;
+  margin-left: 70px;
+}
+
+.circulo-cinza {
+  width: 32px;
+  height: 32px;
+  border-radius: 100px;
+  background-color: #dfe6ef;
+}
+
+.simbolo-mais {
+  width: 12px;
+  height: 14px;
+  font-size: 25px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 1.29;
+  letter-spacing: normal;
+  color: #a3b1c5;
+  margin-left: 8.5px;
+}
+
+.outros {
+  margin-left: 45px;
+  margin-top: 21px;
+  font-weight: bold;
+}
+
+.card-body {
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+.titulo {
+  margin-top: 50px;
+}
+
+.titulo-text {
+  width: 361px;
+  height: 27px;
+  font-size: 20px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.36;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  padding-bottom: 50px;
+  border-bottom: solid #0095a6;
+}
+
+.adicione {
+  float: left;
+  font-size: 22px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.38;
+  letter-spacing: 0.67px;
+  text-align: center;
+  color: #c0cddf;
+  margin-top: 120px;
+}
+
+.btn {
+  margin-left: 55px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nao-encontrou {
+  float: left;
+  font-size: 18px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: center;
+  color: #444444;
+  margin-top: 180px;
+}
+
+.container {
+  padding-bottom: 100px;
+}
+
+.botao-transparente{
+  float: right;
+  padding: 5px 20px;
+  border-radius: 4px;
+  border: solid 1px #c0cddf;
+  background-color: #f9fafc;
+  color: #c0cddf;
+}
