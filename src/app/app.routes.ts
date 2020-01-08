@@ -1,4 +1,4 @@
-import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component'
+import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
 import { ProfileSelectComponent } from './components/busca/profile-select/profile-select.component';
 import { SignupComponent } from './components/signup/signup.component';
 import { EditProfileComponent } from './components/edit-profile/edit-profile.component';
