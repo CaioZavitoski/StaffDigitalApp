@@ -1,6 +1,22 @@
 <div class="d-flex justify-content-between backgroundColor">
   <div class="flex-fill pt-1 text-left">
-    <img src="../../assets/perfil-icon-4.png" class="profile-icon ml-5" [routerLink]="['/edit-profile']" />
+    <div class="dropdown" id="alinhamento-menu">
+      <a href="#" id="imageDropdown" data-toggle="dropdown">
+        <img src="../../assets/perfil-icon-4.png" class="profile-icon ml-5" />
+      </a>
+      <div
+        class="dropdown-menu"
+        id="menu-esquerdo"
+        aria-labelledby="dropdownMenuLink"
+      >
+        <a class="dropdown-item" [routerLink]="['/edit-profile']">
+          Editar Perfil
+        </a>
+        <a class="dropdown-item" href="#">Ajuda</a>
+        <img src="../../../assets/Idioma.PNG" class="idioma" />
+        <button type="button" class="btn">LOGOUT</button>
+      </div>
+    </div>
   </div>
   <div class="flex-fill active text-light text-center p-2">
     <a href="#"> Buscar Skill</a>
@@ -9,7 +25,75 @@
     <a href="#"> Acompanhar Processos </a>
   </div>
   <div class="flex-fill pt-1 text-right">
-    <img src="../../assets/images.png" class="bell-icon" />
+    <div class="dropdown">
+      <a href="#" id="imageDropdown" data-toggle="dropdown">
+        <img src="../../assets/images.png" class="bell-icon" />
+      </a>
+      <ul
+        class="dropdown-menu"
+        id="notificacao"
+        role="menu"
+        aria-labelledby="imageDropdown"
+      >
+        <div class="notificacoes ml-5">
+          <h2>Notificações</h2>
+        </div>
+        <div class="ml-5">
+          <h6>Você tem 4 notificações não lidas</h6>
+        </div>
+        <div class="retangulo-notificacoes ml-4">
+          <div class="essa-semana ml-3 pt-3">
+            <p>ESSA SEMANA</p>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="row flex-wrap ml-3">
+              <div class="flex-wrap">
+                <div class="bola-verde"></div>
+                <div class="traco-vertical ml-3"></div>
+              </div>
+            </div>
+
+            <div>
+              <p class="texto-verde-vertical ml-4 mb-0">Há 3 horas</p>
+              <p class="texto-titulo-vertical ml-4 mb-0">Front End</p>
+              <p class="texto-subtitulo-vertical ml-4 mb-0">
+                Novos perfis para aprovar!
+              </p>
+              <p class="texto-descricao-vertical ml-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod exa tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+          </div>
+
+          <div class="retangulo-notificacoes">
+            <div class="essa-semana ml-3 pt-3">
+              <p>ESSA SEMANA</p>
+            </div>
+            <div class="d-flex justify-content-start">
+              <div class="row flex-wrap ml-3">
+                <div class="flex-wrap">
+                  <div class="bola-verde"></div>
+                  <div class="traco-vertical ml-3"></div>
+                </div>
+              </div>
+              <div>
+                <p class="texto-verde-vertical ml-4 mb-0">Há 3 horas</p>
+                <p class="texto-titulo-vertical ml-4 mb-0">Front End</p>
+                <p class="texto-subtitulo-vertical ml-4 mb-0">
+                  Novos perfis para aprovar!
+                </p>
+                <p class="texto-descricao-vertical ml-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod exa tempor incididunt ut labore et dolore magna
+                  aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
   </div>
 </div>
 <div class="container pt-4">
