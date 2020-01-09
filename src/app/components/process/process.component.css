@@ -112,7 +112,6 @@
 
 #alinhamento-menu {
   margin-right: 5px;
-
 }
 
 .btn {
@@ -128,3 +127,123 @@
   margin-top: 20px;
   margin-left: 22px;
 }
+
+.input-group {
+  margin-top: 55px;
+}
+
+.form-control {
+  width: 1220px;
+  height: 70px;
+  border-radius: 10px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+}
+
+.container {
+  padding-bottom: 80px;
+  padding-left: 80px;
+  padding-right: 70px;
+}
+
+.logo {
+  width: 20%;
+}
+
+.BUSCAR-PROFISSIONAIS {
+  margin-top: 50px;
+  font-family: "Nunito", sans-serif;
+  color: #31353b;
+  letter-spacing: 0.32px;
+}
+
+.busca {
+  width: 35%;
+  padding-left: 10px;
+  float: right;
+  margin-top: 50px;
+  border-top: transparent;
+  border-left: transparent;
+  border-right: transparent;
+  background-color: transparent;
+  box-shadow: transparent;
+  border-bottom: solid 1px black;
+  padding-bottom: 10px;
+}
+
+.processo {
+  margin-top: 50px;
+}
+
+.contato {
+  width: 330px;
+  margin-left: 0;
+}
+
+.card {
+  border: transparent;
+  border-radius: 0;
+  padding-bottom: 60px;
+}
+
+.tecnologia {
+  width: 12%;
+}
+
+.titulo-selecao {
+  font-size: 14px;
+  padding-top: 5px;
+  color: #fdc24f;
+  line-height: 1.79;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.titulo-contato {
+  color: #31353b;
+  font-size: 22px;
+  line-height: 1.32;
+  letter-spacing: 0.9px;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  padding-bottom: 7px;
+  margin-bottom: 0;
+}
+
+.titulo-data {
+  font-size: 10px;
+  line-height: 0.93;
+  letter-spacing: normal;
+  color: #a3b1c5;
+}
+
+.retangulo-card {
+  width: 400px;
+  height: 200px;
+  border-radius: 4px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.07);
+  background-color: #f9fafc;
+  margin-left: 60px;
+}
+
+.foto-perfil {
+  width: 20%;
+  margin-left: 12px;
+  margin-right: 0;
+  margin-top: 12px;
+}
+
+.nome {
+  margin-top: 15px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 1.1;
+  text-align: left;
+  color: #000000;
+  margin-left: 110px;
+}
+
