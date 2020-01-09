@@ -1,0 +1,218 @@
+<div class="d-flex justify-content-between backgroundColor">
+  <div class="flex-fill pt-1 text-left">
+    <div class="dropdown" id="alinhamento-menu">
+      <a href="#" id="imageDropdown" data-toggle="dropdown">
+        <img src="../../assets/perfil-icon-4.png" class="profile-icon ml-5" />
+      </a>
+      <div
+        class="dropdown-menu"
+        id="menu-esquerdo"
+        aria-labelledby="dropdownMenuLink"
+      >
+        <a class="dropdown-item" [routerLink]="['/edit-profile']">
+          Editar Perfil
+        </a>
+        <a class="dropdown-item" [routerLink]="['/help']">Ajuda</a>
+        <img src="../../../assets/Idioma.PNG" class="idioma" />
+        <button type="button" class="btn">LOGOUT</button>
+      </div>
+    </div>
+  </div>
+  <div class="flex-fill active text-light text-center p-2">
+    <a [routerLink]="['/busca']"> Buscar Skill</a>
+  </div>
+  <div class="p-2 flex-fill text-light text-center">
+    <a href="#"> Acompanhar Processos </a>
+  </div>
+  <div class="flex-fill pt-1 text-right">
+    <div class="dropdown">
+      <a href="#" id="imageDropdown" data-toggle="dropdown">
+        <img src="../../assets/images.png" class="bell-icon" />
+      </a>
+      <ul
+        class="dropdown-menu"
+        id="notificacao"
+        role="menu"
+        aria-labelledby="imageDropdown"
+      >
+        <div class="notificacoes ml-5">
+          <h2>Notificações</h2>
+        </div>
+        <div class="ml-5">
+          <h6>Você tem 4 notificações não lidas</h6>
+        </div>
+        <div class="retangulo-notificacoes ml-4">
+          <div class="essa-semana ml-3 pt-3">
+            <p>ESSA SEMANA</p>
+          </div>
+          <div class="d-flex justify-content-start">
+            <div class="row flex-wrap ml-3">
+              <div class="flex-wrap">
+                <div class="bola-verde"></div>
+                <div class="traco-vertical ml-3"></div>
+              </div>
+            </div>
+
+            <div>
+              <p class="texto-verde-vertical ml-4 mb-0">Há 3 horas</p>
+              <p class="texto-titulo-vertical ml-4 mb-0">Front End</p>
+              <p class="texto-subtitulo-vertical ml-4 mb-0">
+                Novos perfis para aprovar!
+              </p>
+              <p class="texto-descricao-vertical ml-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod exa tempor incididunt ut labore et dolore magna aliqua
+              </p>
+            </div>
+          </div>
+
+          <div class="retangulo-notificacoes">
+            <div class="essa-semana ml-3 pt-3">
+              <p>ESSA SEMANA</p>
+            </div>
+            <div class="d-flex justify-content-start">
+              <div class="row flex-wrap ml-3">
+                <div class="flex-wrap">
+                  <div class="bola-verde"></div>
+                  <div class="traco-vertical ml-3"></div>
+                </div>
+              </div>
+              <div>
+                <p class="texto-verde-vertical ml-4 mb-0">Há 3 horas</p>
+                <p class="texto-titulo-vertical ml-4 mb-0">Front End</p>
+                <p class="texto-subtitulo-vertical ml-4 mb-0">
+                  Novos perfis para aprovar!
+                </p>
+                <p class="texto-descricao-vertical ml-4">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod exa tempor incididunt ut labore et dolore magna
+                  aliqua
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ul>
+    </div>
+  </div>
+</div>
+<div class="container mt-4">
+  <a class="voltar" [routerLink]="['/busca']">< Voltar</a>
+  <div class="row">
+    <div class="col-sm-12 d-flex justify-content-start mt-4">
+      <img src="../../../assets/FAQ.PNG" class="faq" />
+      <p class="perguntas">Perguntas Frequentes</p>
+    </div>
+    <div class="col-sm-4 d-flex">
+      <div class="retangulo">
+        <div class="menu-esquerdo text-center mt-4">
+          <div class="opcao-perguntas-ativo">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+          <div class="opcao-perguntas">
+            Lorem Ipsum dolor sit
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-8 d-flex">
+      <div>
+        <p class="titulo-faq d-flex text-uppercase">
+          Lorem Ipsum dolor sit
+        </p>
+        <div class="d-flex">
+          <p class="numero d-flex justify-content-start">1</p>
+
+          <p class="titulo-pergunta d-flex justify-content-start">
+            Lorem Ipsum dolor sit amet consecteuter?
+          </p>
+        </div>
+        <img src="../../../assets/menos.PNG" class="img-sinal-titulo" />
+        <p class="descricao-faq">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod exa tempor incididunt ut labore et dolore magna aliqua. Ut
+          enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+          ut aliquip ex. commodo consequat. Duis aute irure dolor. eprehenderit
+          in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+          Excepteur sint occaecat. cupidatat non proident, sunt in culpa qui
+          officia deserunt mollit anim id est laborum.
+        </p>
+        <div class="borda"></div>
+        <div class="d-flex secao">
+
+          <p class="numero d-flex justify-content-start">2</p>
+          <p class="titulo-pergunta d-flex justify-content-start">
+            Lorem Ipsum dolor sit amet consecteuter?
+          </p>
+        </div>
+        <div class="borda"></div>
+        <div class="d-flex secao">
+          <p class="numero d-flex justify-content-start">3</p>
+
+          <p class="titulo-pergunta d-flex justify-content-start">
+            Lorem Ipsum dolor sit amet consecteuter?
+          </p>
+        </div>
+        <div class="borda"></div>
+        <div class="d-flex secao">
+          <p class="numero d-flex justify-content-start">4</p>
+
+          <p class="titulo-pergunta d-flex justify-content-start">
+            Lorem Ipsum dolor sit amet consecteuter?
+          </p>
+        </div>
+        <div class="borda"></div>
+        <div class="d-flex secao">
+          <p class="numero d-flex justify-content-start">5</p>
+
+          <p class="titulo-pergunta d-flex justify-content-start">
+            Lorem Ipsum dolor sit amet consecteuter?
+          </p>
+        </div>
+        <div class="borda"></div>
+      </div>
+    </div>
+  </div>
+</div>

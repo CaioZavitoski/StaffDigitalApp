@@ -16,6 +16,8 @@ import { SignupComponent } from './components/signup/signup.component';
 import { SignupCompleteComponent } from './components/signup/signup-complete/signup-complete.component';
 import { ProfileSelectComponent } from './components/busca/profile-select/profile-select.component';
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
+import { ProcessComponent } from './components/process/process.component';
+import { HelpComponent } from './components/help/help.component';
 
 @NgModule({
   declarations: [
@@ -28,6 +30,8 @@ import { ForgotPasswordComponent } from './components/login/forgot-password/forg
     SignupCompleteComponent,
     ProfileSelectComponent,
     ForgotPasswordComponent,
+    ProcessComponent,
+    HelpComponent,
   ],
   imports: [
     BrowserModule,

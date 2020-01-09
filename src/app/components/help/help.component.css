@@ -1,0 +1,233 @@
+#notificacao {
+  margin-top: 35px;
+  border-bottom: transparent;
+  border-right: transparent;
+  border-top: transparent;
+  box-shadow: -2px 0 3px 0 rgba(0, 0, 0, 0.07);
+  background: #f5f5f5;
+  padding-bottom: 600px;
+  margin-right: 25px;
+}
+
+.notificacoes {
+  color: #0095a6;
+  font-family: "Nunito", sans-serif;
+  font-weight: 900;
+  margin-top: 15px;
+  line-height: 2.79;
+}
+
+.retangulo-notificacoes {
+  margin-top: 10px;
+  width: 360px;
+  height: 484px;
+  background-color: #ffffff;
+}
+
+.essa-semana {
+  color: #a3b1c5;
+  font-family: "Nunito", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.traco-vertical {
+  width: 2px;
+  height: 418px;
+  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px);
+  background-color: #e3e8f0;
+  margin-right: 15px;
+}
+
+.texto-verde-vertical {
+  color: #9aae04;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Nunito", sans-serif;
+}
+
+.texto-titulo-vertical {
+  font-weight: bold;
+  line-height: 1.61;
+  font-size: 18px;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+}
+
+.texto-subtitulo-vertical {
+  color: #3d454e;
+  font-family: "Nunito", sans-serif;
+  line-height: 1.81;
+  font-size: 16px;
+}
+
+.texto-descricao-vertical {
+  font-size: 14px;
+  color: #3d454e;
+  line-height: 1.71;
+  font-family: "Nunito", sans-serif;
+}
+
+.bola-verde {
+  padding-right: 15px;
+  width: 14px;
+  height: 14px;
+  border-radius: 12px;
+  background-color: #9aae04;
+  margin-left: 10px;
+}
+
+.bola-cinza {
+  padding-right: 15px;
+  width: 14px;
+  height: 14px;
+  border-radius: 12px;
+  background-color: #e3e8f0;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+#menu-esquerdo {
+  margin-top: 12px;
+  width: 100%;
+  border-radius: 1;
+  margin-right: 10px;
+  padding-left: 20px;
+  border: transparent;
+  box-shadow: 2px 0 6px 0 rgba(0, 0, 0, 0.11);
+  padding-bottom: 30px;
+}
+
+.dropdown-item:hover {
+  background-color: transparent;
+}
+
+.dropdown-item {
+  font-family: "Nunito", sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 15px;
+}
+
+#alinhamento-menu {
+  margin-right: 5px;
+}
+
+.btn {
+  margin-top: 40px;
+  padding: 3px 85px;
+  font-weight: 900;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.idioma {
+  width: 70%;
+  margin-top: 20px;
+  margin-left: 22px;
+}
+
+.voltar {
+  font-size: 14px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: left;
+  color: #a3b1c5;
+}
+
+.faq {
+  width: 5%;
+  margin-right: 14px;
+}
+
+.perguntas {
+  color: #31353b;
+  line-height: 1.32;
+  letter-spacing: 0.9px;
+  font-weight: 900;
+  font-family: "Nunito", sans-serif;
+  font-size: 20px;
+  padding-top: 10px;
+}
+
+.retangulo {
+  width: 290px;
+  height: 750px;
+  border-radius: 4px;
+  background-color: #0095a6;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.titulo-faq {
+  margin-top: 60px;
+  color: #31353b;
+  line-height: 1.33;
+  letter-spacing: 0.67px;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
+.numero {
+  color: #31353b;
+  line-height: 1.2;
+  letter-spacing: normal;
+  font-size: 20px;
+}
+
+.descricao-faq {
+  margin-left: 20px;
+  text-align: left;
+}
+
+.titulo-pergunta {
+  color: #31353b;
+  line-height: 1.2;
+  font-size: 18px;
+  letter-spacing: normal;
+  padding-top: 2px;
+  margin-left: 20px;
+  margin-bottom: 0;
+}
+
+.borda {
+  padding-top: 20px;
+  border-bottom: #0095a6 solid 1px;
+}
+
+.secao {
+  padding-top: 35px;
+}
+
+.opcao-perguntas-ativo {
+  box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.16);
+  background-color: #ffffff;
+  border-radius: 2px;
+  padding: 5px 15px;
+  text-align: left;
+}
+
+.opcao-perguntas {
+  color: white;
+  text-align: left;
+  margin-left: 15px;
+  margin-top: 15px;
+}
+
+.menu-esquerdo {
+  padding: 25px;
+}
+
+.img-sinal-titulo {
+  margin-left: 800px;
+  width: 4%;
+  display: flex;
+  margin-top: 0;
+  padding-top: 0;
+
+}
+

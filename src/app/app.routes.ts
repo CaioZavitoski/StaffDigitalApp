@@ -1,3 +1,5 @@
+import { ProcessComponent } from './components/process/process.component';
+import { HelpComponent } from './components/help/help.component';
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
 import { ProfileSelectComponent } from './components/busca/profile-select/profile-select.component';
 import { SignupComponent } from './components/signup/signup.component';
@@ -17,5 +19,8 @@ export const routes: Routes = [
   { path: 'signup', component: SignupComponent },
   { path: 'signup-complete', component: SignupCompleteComponent },
   { path: 'profile-select', component: ProfileSelectComponent },
-  { path: 'forgot-password', component: ForgotPasswordComponent }
+  { path: 'forgot-password', component: ForgotPasswordComponent },
+  { path: 'process', component: ProcessComponent },
+  { path: 'help', component: HelpComponent }
+
 ];
