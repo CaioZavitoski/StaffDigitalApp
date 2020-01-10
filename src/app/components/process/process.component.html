@@ -19,10 +19,10 @@
     </div>
   </div>
   <div class="flex-fill text-light text-center p-2">
-    <a> Buscar Skill</a>
+    <a [routerLink]="['/busca']"> Buscar Skill</a>
   </div>
   <div class="p-2 flex-fill active text-light text-center">
-    <a href="#"> Acompanhar Processos </a>
+    <a> Acompanhar Processos </a>
   </div>
   <div class="flex-fill pt-1 text-right">
     <div class="dropdown">
@@ -133,6 +133,68 @@
           <div class="col-sm-12">
             <img
               src="../../../assets/frontend.PNG"
+              class="tecnologia float-left"
+            />
+            <p class="titulo-selecao">Seleção BKE001</p>
+            <p class="titulo-contato">Em contato com 1 perfil</p>
+            <p class="titulo-data">01-03-2020</p>
+          </div>
+        </div>
+        <div class="retangulo-card">
+          <img
+            src="../../../assets/fotoperfil.PNG"
+            class="foto-perfil float-left"
+          />
+          <div class="textos-perfil">
+            <p class="nome">Karina M. Monteiro</p>
+          </div>
+          <div>
+            <p class="descricao">Designer e UX</p>
+            <p class="sub-descricao">
+              MT / Vila Bela da Santíssima Trindade Sul…
+            </p>
+          </div>
+          <div class="col-sm-12 d-flex justify-content-between">
+            <div class="retangulo-tecnologias">
+              <p class="skill-candidato">HTML</p>
+            </div>
+            <div class="retangulo-tecnologias">
+              <p class="skill-candidato">CSS</p>
+            </div>
+            <div class="retangulo-tecnologias">
+              <p class="skill-candidato">UX</p>
+            </div>
+            <div class="retangulo-tecnologias">
+              <p class="skill-candidato">Angular</p>
+            </div>
+            <div class="retangulo-tecnologias">
+              <p class="skill-candidato">Git</p>
+            </div>
+          </div>
+          <div class="col-sm-12 d-flex justify-content-start">
+            <div class="retangulo-tecnologias mt-3">
+              <p class="skill-candidato">Javascript</p>
+            </div>
+            <div class="retangulo-tecnologias mt-3">
+              <p class="skill-candidato">Jquery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-12">
+      <div class="processo">
+        <img src="../../../assets/contato.PNG" class="contato" />
+        <img src="../../../assets/entrevista.PNG" class="contato ml-0" />
+        <img src="../../../assets/selecionado.PNG" class="contato ml-0" />
+      </div>
+    </div>
+    <div class="col-sm-12 mt-0">
+      <div class="card">
+        <div class="card-body">
+          <div class="col-sm-12">
+            <img
+              src="../../../assets/backend.PNG"
               class="tecnologia float-left"
             />
             <p class="titulo-selecao">Seleção BKE001</p>

@@ -1,0 +1,57 @@
+.fundo {
+    width: 1920px;
+    height: 1074px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color: #b5b9be;
+  
+}
+.geral {
+    width: 600px;
+    height: 350px;
+    border-radius: 5px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    margin-top: 100px ;
+    margin-left: 390px;
+}
+
+
+p { 
+margin-top: 25px;
+
+}
+
+.botao2 {
+  margin-top: 25px;
+}
+
+.detalhes {
+    color: DeepSkyBlue;
+    margin-top: 15px;
+}
+
+.confianca {
+    margin-top: 10px;
+    }
+
+.texto {
+
+    color: Silver;
+      }
+
+.botoes{
+
+    margin-top: 35px;
+
+      }
+
+#cancelar {
+    background-color: white;
+    color: black;
+    margin-right: 180px;
+}
+
+.borda {
+    border-bottom: DeepSkyBlue 1px solid;
+}

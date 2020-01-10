@@ -1,3 +1,5 @@
+import { EntrevistaComponent } from './components/entrevista/entrevista.component';
+import { ConfiancaComponent } from './components/confianca/confianca.component';
 import { LoginService } from './services/login.service';
 import { FormBuilder, ReactiveFormsModule, FormsModule } from '@angular/forms';
 import { HttpClient, HttpClientModule } from '@angular/common/http';
@@ -18,6 +20,7 @@ import { ProfileSelectComponent } from './components/busca/profile-select/profil
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
 import { ProcessComponent } from './components/process/process.component';
 import { HelpComponent } from './components/help/help.component';
+import { ConclusaoComponent } from './components/conclusao/conclusao.component';
 
 @NgModule({
   declarations: [
@@ -32,6 +35,9 @@ import { HelpComponent } from './components/help/help.component';
     ForgotPasswordComponent,
     ProcessComponent,
     HelpComponent,
+    ConfiancaComponent,
+    ConclusaoComponent,
+    EntrevistaComponent
   ],
   imports: [
     BrowserModule,
@@ -43,4 +49,4 @@ import { HelpComponent } from './components/help/help.component';
   providers: [HttpClient, FormBuilder, LoginService, DefaultHttpService],
   bootstrap: [AppComponent]
 })
-export class AppModule {}
+export class AppModule { }

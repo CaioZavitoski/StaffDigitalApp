@@ -1,0 +1,72 @@
+.fundo {
+    width: 1920px;
+    height: 1074px;
+    -webkit-backdrop-filter: blur(50px);
+    backdrop-filter: blur(50px);
+    background-color: #b5b9be;
+  
+}
+.geral {
+    width: 480px;
+    height: 300px;
+    border-radius: 5px;
+    border: solid 1px #707070;
+    background-color: #ffffff;
+    margin-top: 100px ;
+    margin-left: 390px;
+}
+
+
+.botao2 {
+  margin-top: 25px;
+}
+
+.solicitar {
+    color: black;
+    margin-top: 35px;
+}
+
+
+
+.texto {
+
+    color: Silver;
+      }
+
+.botoes{
+
+    margin-top: 35px;
+
+      }
+
+#cancelar {
+    background-color: white;
+    color: black;
+    margin-right: 180px;
+}
+
+
+
+.Retngulo-2947 {
+    width: 65px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #c0cddf;
+    margin-left: 188px;
+    margin-top: 20px;
+  }
+
+  .check   {
+    width: 22px;
+    height: 22px;
+    font-family: FontAwesome5Free-Solid;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 22px  
+}

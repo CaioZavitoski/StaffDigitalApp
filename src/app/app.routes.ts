@@ -1,3 +1,6 @@
+import { EntrevistaComponent } from './components/entrevista/entrevista.component';
+import { ConfiancaComponent } from './components/confianca/confianca.component';
+import { ConclusaoComponent } from './components/conclusao/conclusao.component';
 import { ProcessComponent } from './components/process/process.component';
 import { HelpComponent } from './components/help/help.component';
 import { ForgotPasswordComponent } from './components/login/forgot-password/forgot-password.component';
@@ -21,6 +24,8 @@ export const routes: Routes = [
   { path: 'profile-select', component: ProfileSelectComponent },
   { path: 'forgot-password', component: ForgotPasswordComponent },
   { path: 'process', component: ProcessComponent },
-  { path: 'help', component: HelpComponent }
-
+  { path: 'help', component: HelpComponent },
+  { path: 'conclusao', component: ConclusaoComponent },
+  { path: 'confianca', component: ConfiancaComponent },
+  { path: 'entrevista', component: EntrevistaComponent }
 ];

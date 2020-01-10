@@ -1,0 +1,51 @@
+.fundo {
+        width: 1920px;
+        height: 1074px;
+        -webkit-backdrop-filter: blur(50px);
+        backdrop-filter: blur(50px);
+        background-color: #b5b9be;
+      
+}
+.geral {
+        width: 400px;
+        height: 320px;
+        border-radius: 5px;
+        border: solid 1px #707070;
+        background-color: #ffffff;
+        margin-top: 100px ;
+        margin-left: 480px;
+}
+
+.Retngulo-2947 {
+    width: 65px;
+    height: 64px;
+    border-radius: 100px;
+    background-color: #0095a6;
+    margin-left: 148px;
+    margin-top: 20px;
+  }
+
+  .check   {
+    width: 22px;
+    height: 22px;
+    font-family: FontAwesome5Free-Solid;
+    font-size: 22px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 3.14;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    margin-left: 22px  
+}
+
+p { 
+    margin-top: 15px;
+
+}
+
+  .botao2 {
+      margin-top: 25px;
+  }
+ 

@@ -22,7 +22,7 @@
     <a [routerLink]="['/busca']"> Buscar Skill</a>
   </div>
   <div class="p-2 flex-fill text-light text-center">
-    <a> Acompanhar Processos </a>
+    <a [routerLink]="['/process']"> Acompanhar Processos </a>
   </div>
   <div class="flex-fill pt-1 text-right">
     <div class="dropdown">
@@ -201,7 +201,13 @@
       <button type="button" class="btn"><b>SOLICITAR NOVOS PERFIS</b></button>
     </div>
     <div class="col-sm-6">
-      <button type="button" class="botao-transparente"><b>SOLICITAR</b></button>
+      <button
+        type="button"
+        class="botao-transparente"
+        [routerLink]="['/entrevista']"
+      >
+        <b>SOLICITAR</b>
+      </button>
     </div>
   </div>
 </div>
